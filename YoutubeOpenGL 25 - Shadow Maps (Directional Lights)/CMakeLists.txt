@@ -5,7 +5,7 @@ string(REGEX REPLACE "[^a-zA-Z0-9]+" "_" ProjectName ${ProjectName})
 project(${ProjectName})
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
 
 set(SOURCE Main.cpp glad.c EBO.cpp shaderClass.cpp VAO.cpp VBO.cpp stb.cpp Texture.cpp Camera.cpp Mesh.cpp Model.cpp)
 set(SHADERS default.vert default.frag framebuffer.vert framebuffer.frag shadowMap.vert shadowMap.frag )
