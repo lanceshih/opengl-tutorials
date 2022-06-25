@@ -15,7 +15,7 @@ public:
 	std::vector <GLuint> indices;
 	std::vector <Texture> textures;
 	// Store VAO in public so it can be used in the Draw function
-	VAO VAO;
+	class VAO VAO;
 
 	// Holds number of instances (if 1 the mesh will be rendered normally)
 	unsigned int instancing;
