@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.19)
 project(opengl-tutorial)
 
 add_subdirectory("YoutubeOpenGL 0 - Install")

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.19)
 
 get_filename_component(ProjectName ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 string(REGEX REPLACE "[^a-zA-Z0-9]+" "_" ProjectName ${ProjectName})
