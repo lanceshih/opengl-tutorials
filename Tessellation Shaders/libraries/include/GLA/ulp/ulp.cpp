@@ -10,10 +10,10 @@ int32_t ulpsDistance(const float a, const float b)
 		std::numeric_limits<int32_t>::max();
 
 	// Max distance for NaN
-	if (isnan(a) || isnan(b)) return max;
+	if (std::isnan(a) || std::isnan(b)) return max;
 
 	// If one's infinite and they're not equal, max distance
-	if (isinf(a) || isinf(b)) return max;
+	if (std::isinf(a) || std::isinf(b)) return max;
 
 	int32_t ia, ib;
 	memcpy(&ia, &a, sizeof(float));

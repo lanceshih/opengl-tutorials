@@ -3,7 +3,8 @@
 
 #include <iomanip>
 #include <iostream>
-
+#include <cstring>
+#include <cmath>
 
 
 
