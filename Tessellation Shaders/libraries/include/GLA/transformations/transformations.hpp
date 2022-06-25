@@ -1,7 +1,7 @@
 #ifndef TRANSFORMATIONS_H
 #define TRANSFORMATIONS_H
 
-#include "..\mat\mat4\mat4.hpp"
+#include "../mat/mat4/mat4.hpp"
 
 
 

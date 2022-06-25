@@ -1,7 +1,7 @@
 #ifndef MAT4_H
 #define MAT4_H
 
-#include "..\mat3\mat3.hpp"
+#include "../mat3/mat3.hpp"
 
 
 

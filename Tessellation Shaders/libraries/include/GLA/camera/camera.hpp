@@ -1,7 +1,7 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "..\mat\mat4\mat4.hpp"
+#include "../mat/mat4/mat4.hpp"
 
 
 

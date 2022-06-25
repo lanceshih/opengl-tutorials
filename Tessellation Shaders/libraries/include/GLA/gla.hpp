@@ -1,2 +1,2 @@
-#include "camera\camera.hpp"
-#include "transformations\transformations.hpp"
+#include "camera/camera.hpp"
+#include "transformations/transformations.hpp"

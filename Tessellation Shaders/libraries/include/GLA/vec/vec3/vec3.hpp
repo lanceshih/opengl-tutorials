@@ -1,8 +1,8 @@
 #ifndef VEC3_H
 #define VEC3_H
 
-#include "..\..\ulp\ulp.hpp"
-#include "..\vec4\vec4.hpp"
+#include "../../ulp/ulp.hpp"
+#include "../vec4/vec4.hpp"
 
 
 

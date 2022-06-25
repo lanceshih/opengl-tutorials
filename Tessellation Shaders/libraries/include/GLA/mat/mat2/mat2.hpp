@@ -1,7 +1,7 @@
 #ifndef MAT2_H
 #define MAT2_H
 
-#include "..\..\vec\vec2\vec2.hpp"
+#include "../../vec/vec2/vec2.hpp"
 
 
 
